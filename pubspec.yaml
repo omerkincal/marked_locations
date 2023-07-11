@@ -39,7 +39,14 @@ dependencies:
   uuid: ^3.0.7
   flutter_riverpod: ^2.3.2
   image_picker: ^1.0.0
-  location: ^4.4.0
+  #location last version is not updated.
+  #you must use this to access location benefits.
+  location:
+    git:
+      url: https://github.com/781flyingdutchman/flutterlocation.git
+      ref: V4
+      path: packages/location
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:
